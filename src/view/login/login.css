@@ -1,0 +1,42 @@
+.top-navbar{
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+.my-carousel {
+  background: #fff;
+}
+.my-carousel a {
+  display: inline-block;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.my-carousel a img {
+  width: 100%;
+  vertical-align: top;
+}
+.am-grid.am-grid-line .am-flexbox .am-flexbox-item:after{
+      width: 0PX;
+}
+
+.corner-badge {
+  height: 100px;
+  width: 400px;
+}
+.special-badge .am-list-line {
+  padding-right: 0;
+}
+.special-badge .am-list-line .am-list-extra {
+  padding: 0;
+  height: 100%;
+}
+.special-badge .am-badge {
+  transform: rotate(45deg);
+  transform-origin: right bottom;
+  right: 0;
+  top: 0.26rem;
+  width: 1rem;
+}
+.special-badge .am-badge-text {
+  border-radius: 0.02rem;
+}
